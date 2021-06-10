@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(bg3.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container{
+    /* border: 2px solid black; */
+    color: white;
+    position: absolute;
+    top: 39%;
+    left: 6%;
+}
+
+.container h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+    border-bottom: 5px solid greenyellow;
+    margin-bottom: 15px;
+    padding: 13px 0;
+    width: 50%;
+}
+
+.box{
+    width: 100%;
+    /* border: 2px solid purple; */
+    border-bottom: 2px solid gold;
+    margin: 22px 0;
+}
+
+.box input{
+    font-family: 'Sigmar One', cursive;
+    width: 75%;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 20px;
+    background: none;
+}
+
+.box i{
+    width: 25px;
+    text-align: center;
+}
+
+.btn{
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border-radius: 10px;
+    border: 2px solid rgb(172, 243, 6);
+    font-size: 18px;
+    background: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    color: black;
+    opacity: 0.5;
+}
